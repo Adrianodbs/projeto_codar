@@ -1,0 +1,75 @@
+@media screen and (max-width:1024px){
+
+
+  .cabecalho, 
+  .chamada, 
+  .beneficios__texto, 
+  .form_input, 
+  .depoimentos, 
+  .footer{
+    flex-direction: column;
+  }
+
+  .cabecalho__btn{
+    display: none;
+  }
+
+  .chamada__imagem img{
+    margin-bottom: 40px;
+    width: 400px;
+  }
+
+  .chamada__texto{
+    text-align: center;
+  }
+
+  .chamada__texto a{
+    margin: 30px auto 0;
+  }
+
+  .beneficios__texto{
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .beneficios__texto img{
+    margin-bottom: 20px;
+    width: 400px;
+  }
+
+  .form{
+    text-align: center;
+    justify-content: center;
+  }
+
+  .form_input{
+    display: flex;
+    width: 200px;
+    margin: 30px auto 80px;
+  }
+
+  .form_input input{
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 210px;
+  }
+
+  .form_input a{
+    padding: 13px 0px;
+    width: 210px;
+  }
+
+  .depoimento{
+    margin-bottom: 30px;
+    width: 400px;
+    height: 220px;
+  }
+
+  .footer__logo{
+    text-align: center;
+  }
+
+  .footer div{
+    margin-bottom: 20px;
+  }
+}
